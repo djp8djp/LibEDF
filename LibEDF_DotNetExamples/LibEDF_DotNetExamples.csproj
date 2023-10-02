@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LibEDF_DotNetExamples</RootNamespace>
     <AssemblyName>LibEDF_DotNetExamples</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,6 +52,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LibEDF_DotNetTests\LibEDF_DotNetTests.csproj">
+      <Project>{077f4371-c947-4193-ab00-7ee21365c79c}</Project>
+      <Name>LibEDF_DotNetTests</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LibEDF_DotNet\LibEDF_DotNet.csproj">
       <Project>{7e8b16eb-eb43-4a0f-b4aa-d00bfe41ebe2}</Project>
       <Name>LibEDF_DotNet</Name>

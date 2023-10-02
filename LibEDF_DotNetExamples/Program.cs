@@ -2,6 +2,19 @@
 using System.Linq;
 using LibEDF_DotNet;
 using System.IO;
+using System.Windows.Forms;
+
+
+
+
+
+// https://github.com/rdtek/LibEDF
+
+
+
+
+
+
 
 namespace LibEDF_DotNetExamples
 {
@@ -9,13 +22,21 @@ namespace LibEDF_DotNetExamples
     {
         static void Main(string[] args)
         {
-            Example1_Create_And_Save_EDF();
+			//	EDFSharpTests.UnitTest1 ttt = new EDFSharpTests.UnitTest1();
+			//	ttt.Test_WriteReadEDF_ShouldReturnSameData();
+
+			//Example1_Create_And_Save_EDF();
 
             if(args.Length >= 1)
                 Example2_Read_EDF_From_Base64(args[0]);
-        }
+			//else
+			//{
+			//	Form1 frm1 = new Form1();
+			//	frm1.Show();
+			//}
+		}
 
-        private static void Example1_Create_And_Save_EDF() {
+		private static void Example1_Create_And_Save_EDF() {
 
             //Crreate an empty EDF file
             var edfFile = new EDFFile();

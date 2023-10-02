@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibEDF_Win32Dll", "LibEDF_Win32Dll\LibEDF_Win32.vcxproj", "{A668263C-D2F8-4038-B96D-F00AAF44CF90}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibEDF_DotNetExamples", "LibEDF_DotNetExamples\LibEDF_DotNetExamples.csproj", "{73ACE459-8CE0-4D90-95EE-A9B3543E183F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibEDF_DotNetTests", "LibEDF_DotNetTests\LibEDF_DotNetTests.csproj", "{077F4371-C947-4193-AB00-7EE21365C79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProEDF", "..\..\ProEDF\ProEDF.csproj", "{3A994AF2-F215-4219-B1F4-DA7FF970F107}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,8 +81,23 @@ Global
 		{077F4371-C947-4193-AB00-7EE21365C79C}.Release|x64.Build.0 = Release|Any CPU
 		{077F4371-C947-4193-AB00-7EE21365C79C}.Release|x86.ActiveCfg = Release|x86
 		{077F4371-C947-4193-AB00-7EE21365C79C}.Release|x86.Build.0 = Release|x86
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Debug|x64.Build.0 = Debug|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Debug|x86.Build.0 = Debug|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Release|x64.ActiveCfg = Release|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Release|x64.Build.0 = Release|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Release|x86.ActiveCfg = Release|Any CPU
+		{3A994AF2-F215-4219-B1F4-DA7FF970F107}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDBC7EBD-1620-4883-B7FF-840F5239941F}
 	EndGlobalSection
 EndGlobal
